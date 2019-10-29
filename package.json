@@ -1,0 +1,16 @@
+{
+  "name": "testapp",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "npx babel ./lib -d ./src --copy-files --include-dotfiles",
+    "start": "npm run build && npx arc sandbox",
+    "deploy": "npm run build && npx arc deploy production"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+    "@babel/preset-env": "^7.6.3"
+  }
+}
