@@ -1,5 +1,5 @@
 @app
-init
+babel-starter
 
 @http
 get /
