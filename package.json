@@ -1,5 +1,5 @@
 {
-  "name": "testapp",
+  "name": "arc-babel-starter",
   "version": "0.0.1",
   "scripts": {
     "build": "npx babel ./lib -d ./src --copy-files --include-dotfiles",
