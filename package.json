@@ -4,7 +4,7 @@
   "scripts": {
     "build": "npx babel ./lib -d ./src --copy-files --include-dotfiles",
     "start": "npm run build && npx arc sandbox",
-    "deploy": "npm run build && npx arc deploy production"
+    "deploy": "npm run build && npx arc deploy"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.4",
